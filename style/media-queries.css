@@ -24,9 +24,9 @@
     }
 
     a.menu-link:hover {
-        transform: translate(0px, -10px);
+        transform: translate(0px, -5px);
         transition-duration: .4s;
-        border: 1px solid #45a29e;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     }
     
     section {
@@ -54,6 +54,7 @@
     section#section-projects > div:hover {
         transform: translate(0px, -35px);
         transition-duration: .4s;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     }
 
     section#section-projects img {
@@ -86,8 +87,9 @@
     }
 
     a.menu-link:hover {
-        transform: translate(0px, -10px);
+        transform: translate(0px, -5px);
         transition-duration: .4s;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     }
     
     section {
@@ -115,6 +117,7 @@
     section#section-projects > div:hover {
         transform: translate(0px, -35px);
         transition-duration: .4s;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     }
 
     section#section-projects img {
