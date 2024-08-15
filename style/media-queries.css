@@ -1,1 +1,124 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    i#burguer {
+        display: none;
+    }
+
+    menu#itens {
+        display: block;
+        border: 1px solid#45a29e;
+    }
+
+    ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    a.menu-link {
+        border: 0px;
+        margin: 0px 15px;
+        padding: 0px 10px 10px 10px;
+        border-radius: 10px;
+    }
+
+    a.menu-link:hover {
+        transform: translate(0px, -10px);
+        transition-duration: .4s;
+        border: 1px solid #45a29e;
+    }
+    
+    section {
+        width: 768px;
+        padding-top: 40px;
+    }
+
+    iframe#screen {
+        width: calc(100% - 100px);
+        margin: auto;
+        display: block;
+        border: 2px solid #45a29e;
+    }
+
+    section#section-projects {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    section#section-projects > div {
+        width: 250px;
+    }
+
+    section#section-projects > div:hover {
+        transform: translate(0px, -35px);
+        transition-duration: .4s;
+    }
+
+    section#section-projects img {
+        width: 250px;
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+
+    i#burguer {
+        display: none;
+    }
+
+    menu#itens {
+        display: block;
+        border: 1px solid#45a29e;
+    }
+
+    ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    a.menu-link {
+        border: 0px;
+        margin: 0px 15px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    a.menu-link:hover {
+        transform: translate(0px, -10px);
+        transition-duration: .4s;
+    }
+    
+    section {
+        width: 768px;
+        padding-top: 40px;
+    }
+
+    iframe#screen {
+        width: calc(100% - 300px);
+        margin: auto;
+        display: block;
+        border: 2px solid #45a29e;
+    }
+
+    section#section-projects {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    section#section-projects > div {
+        width: 250px;
+    }
+
+    section#section-projects > div:hover {
+        transform: translate(0px, -35px);
+        transition-duration: .4s;
+    }
+
+    section#section-projects img {
+        width: 250px;
+    }
+
+}
