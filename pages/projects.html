@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>
+            Murilo's Portfolio
+        </h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="../index.html"><i class="material-icons">home</i>Home</a></li>
+                <li><a href="../pages/about-me.html"><i class="material-icons">person</i>About Me</a></li>
+                <li><a href="../pages/projects.html"><i class="material-icons">computer</i>Projects</a></li>
+                <li><a href="../pages/contacts.html"><i class="material-icons">chat</i>Contacts</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main id="m-projects">
+        <section id="s-iframe">
+           <iframe srcdoc="<h1>Press on the project you want to see, to put it here.</h1>" name="frame">
+                Not working
+            </iframe> 
+        </section>
+        <section id="s-projects">
+            <a href="../projects/Projeto-Android/" id="a-projects" target="frame"><img src="../images/p-android.PNG" alt=""></a>
+            <a href="../projects/Projeto-Cordel-Moderno/" id="a-projects" target="frame"><img src="../images/p-cordel.PNG" alt=""></a>
+            <a href="../projects/Projeto-Social/" id="a-projects" target="frame"><img src="../images/p-social.PNG" alt=""></a>
+            <a href="../projects/projeto-login/" id="a-projects" target="frame"><img src="../images/p-login.PNG" alt=""></a>
+        </section>
+    </main>
+
+    <script src="../script/script.js"></script>
+</body>
+</html>
