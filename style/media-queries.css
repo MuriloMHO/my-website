@@ -52,7 +52,7 @@
     }
 
     section#section-projects > div:hover {
-        transform: translate(0px, -35px);
+        transform: translateY(-15px) rotate(-5deg);
         transition-duration: .4s;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     }
@@ -115,7 +115,7 @@
     }
 
     section#section-projects > div:hover {
-        transform: translate(0px, -35px);
+        transform: translate(0px, -25px) rotate(-3deg);
         transition-duration: .4s;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     }

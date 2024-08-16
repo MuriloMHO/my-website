@@ -136,7 +136,8 @@ End Section
 */
 
 section#section-projects > div {
-    margin: auto;   
+    margin: auto;
+    margin-bottom: 30px;   
     width: 70%;
     text-align: center;
     border-radius: 5px;
